@@ -1,0 +1,59 @@
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="C:/Users/student.DOMAIN/Desktop/ra54-zadatak/EQ/c55xx_csl/inc" --include_path="C:/Users/student.DOMAIN/Desktop/ra54-zadatak/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 101: warning: integer operation result is out of range
+"../main.c", line 101: warning: integer operation result is out of range
+"../main.c", line 104: warning: integer operation result is out of range
+"../main.c", line 104: warning: integer operation result is out of range
+"../main.c", line 107: warning: integer operation result is out of range
+"../main.c", line 107: warning: integer operation result is out of range
+"../main.c", line 110: warning: integer operation result is out of range
+"../main.c", line 110: warning: integer operation result is out of range
+"../main.c", line 128: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"C:/Users/student.DOMAIN/Desktop/ra54-zadatak/EQ/c55xx_csl/lib" -i"C:/Users/student.DOMAIN/Desktop/ra54-zadatak/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="C:/Users/student.DOMAIN/Desktop/ra54-zadatak/EQ/c55xx_csl/inc" --include_path="C:/Users/student.DOMAIN/Desktop/ra54-zadatak/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 101: warning: integer operation result is out of range
+"../main.c", line 101: warning: integer operation result is out of range
+"../main.c", line 104: warning: integer operation result is out of range
+"../main.c", line 104: warning: integer operation result is out of range
+"../main.c", line 107: warning: integer operation result is out of range
+"../main.c", line 107: warning: integer operation result is out of range
+"../main.c", line 110: warning: integer operation result is out of range
+"../main.c", line 110: warning: integer operation result is out of range
+"../main.c", line 128: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"C:/Users/student.DOMAIN/Desktop/ra54-zadatak/EQ/c55xx_csl/lib" -i"C:/Users/student.DOMAIN/Desktop/ra54-zadatak/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
